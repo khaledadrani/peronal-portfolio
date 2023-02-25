@@ -12,16 +12,14 @@ export const NavBar: NavBarParams = {
 
 export const Home: HomeParams = {
   title: 'Home Page',
-  name: 'Name',
-  lastName: 'LASTNAME',
-  description: 'A brief description about myself.',
+  name: 'Khaled',
+  lastName: 'Adrani',
+  description: 'Hello, there! I am Khaled from Tunisia, I\'m a python developer and a software engineer. Welcome to my personal portfolio!',
   links: {
-    github: 'https://github.com/',
-    linkedin: 'https://www.linkedin.com/',
-    twitter: 'https://twitter.com/',
-    stackoverflow: 'https://stackoverflow.com/'
+    github: 'https://github.com/khaledadrani',
+    linkedin: 'https://www.linkedin.com/in/khaled-adrani/',
   },
-  skills: [Technologies.JavaScript, Technologies.HTML, Technologies.CSS]
+  skills: [Technologies.Python, Technologies.Java, Technologies.TypeScript]
 }
 
 export const PersonalProjects: PersonalProjectsParams = {
